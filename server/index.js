@@ -19,7 +19,7 @@ app.use(express.json())
 
 const userRouter = express.Router();
 
-app.use("/user", userRouter)
+app.use("/api/user", userRouter)
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/build/index.html'));

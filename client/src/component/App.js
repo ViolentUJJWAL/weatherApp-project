@@ -12,7 +12,7 @@ import key from '../apiKey'
 class App extends Component {
   constructor(props) {
     super(props);
-    this.serverUrl = "http://localhost:8000/user"
+    this.serverUrl = "https://weatherapp-project-cfy5.onrender.com/api/user"
     this.state = {
       name: "",
       lat: "",
